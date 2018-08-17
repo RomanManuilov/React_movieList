@@ -1,0 +1,52 @@
+.movie-container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    font-family: "Segoe UI";
+}
+.movie-list-container{
+    width: 80%;
+}
+.movie-list{
+    margin: 0 auto;
+
+}
+.movie-watch-container{
+    text-align: center;
+}
+.movie-item__img{
+    width: 100%;
+}
+.movie{
+    width: 27%;
+    display: inline-block;
+    margin-right: 35px;
+    margin-bottom: 10px;
+    border: 1px solid #DFDFDF;
+    border-radius: 5px;
+}
+.movie-item{
+
+}
+.movie-item__title{
+    padding: 10px 10px 0px 10px;
+    font-size: 1.0em;
+    font-weight: 500;
+}
+.movie-item-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.movie-watch-item{
+    margin: 0 auto;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+}
+.movie-watch__title{
+    font-size: 1.4em;
+    font-weight: 600;
+}
